@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Math Game</title>
+  </head>
+  <body>
+    <h2 id="mode">Mode: Practice</h2>
+    <h3 id="timer"></h3>
+
+    <button onclick="toggleMode()">Toggle 5s Mode</button>
+    <button onclick="startGame()" id="startBtn">Start</button>
+
+    <h1>Multiplication Game</h1>
+    <p id="question"></p>
+    <input type="number" id="answer" disabled />
+    <button onclick="checkAnswer()" id="submitBtn" disabled>Submit</button>
+    <p id="result"></p>
+    <h3 id="streak">Streak: 0</h3>
+
+    <script src="script.js"></script>
+  </body>
+</html>
